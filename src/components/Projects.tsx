@@ -7,7 +7,7 @@ const projects = [
     description:
       "A modern personal portfolio built with React, TypeScript, Tailwind CSS and Framer Motion. Designed with glassmorphism, responsive layouts and smooth animations.",
     tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/itsmenikeshraj99",
+    github: "https://github.com/itsmenikeshraj99/portfolio",
     demo: "#",
     status: "Live",
   },
