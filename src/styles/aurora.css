@@ -1,0 +1,50 @@
+.aurora {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  background: #050816;
+}
+
+.aurora::before,
+.aurora::after{
+  content:"";
+  position:absolute;
+  width:700px;
+  height:700px;
+  border-radius:50%;
+  filter:blur(140px);
+  opacity:.35;
+}
+
+.aurora::before{
+  background:#00d4ff;
+  top:-180px;
+  left:-180px;
+  animation:moveOne 16s ease-in-out infinite alternate;
+}
+
+.aurora::after{
+  background:#6d5dfc;
+  bottom:-220px;
+  right:-220px;
+  animation:moveTwo 18s ease-in-out infinite alternate;
+}
+
+@keyframes moveOne{
+  from{
+    transform:translate(0,0) scale(1);
+  }
+  to{
+    transform:translate(250px,150px) scale(1.25);
+  }
+}
+
+@keyframes moveTwo{
+  from{
+    transform:translate(0,0) scale(1);
+  }
+  to{
+    transform:translate(-250px,-180px) scale(1.3);
+  }
+}
