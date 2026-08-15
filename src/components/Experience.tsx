@@ -3,44 +3,16 @@ import { Calendar } from "lucide-react";
 
 const experiences = [
   {
-    company: "Innerra",
-    role: "Founder | AI Engineer & Full Stack Developer",
+    company: "Innera",
+    role: "Founder | AI Engineer",
     duration: "2026 – Present",
     description:
-      "Designed and developed an educational platform for students. Built web and mobile applications using React Native, Firebase and modern technologies with future AI integration.",
+      "Building an ed-tech platform for CBSE/NCERT and competitive exam students with a feature-based modular architecture and a fully Firestore-driven content system, so classes, subjects and exam tracks scale without code changes. Actively integrating AI-driven personalization into the learning experience.",
     skills: [
+      "AI Agents",
       "React Native",
-      "TypeScript",
       "Firebase",
-      "Expo",
-      "Git",
-    ],
-  },
-
-  {
-    company: "MBA Paanwali",
-    role: "Full Stack Developer",
-    duration: "2026",
-    description:
-      "Designed and developed a modern responsive business website focused on branding, performance and user experience.",
-    skills: [
-      "React",
       "TypeScript",
-      "Tailwind CSS",
-      "Responsive Design",
-    ],
-  },
-
-  {
-    company: "ChaiOM",
-    role: "Full Stack Developer",
-    duration: "2026",
-    description:
-      "Developed a responsive business website with modern UI, optimized performance and mobile-first design.",
-    skills: [
-      "React",
-      "Tailwind CSS",
-      "UI/UX",
     ],
   },
 
@@ -49,12 +21,26 @@ const experiences = [
     role: "AI Automation Developer",
     duration: "2026",
     description:
-      "Created AI-powered automation workflows using n8n, APIs and Python to streamline business processes.",
+      "Built and debugged n8n automation workflows end-to-end — Gmail sender triggered by Google Sheets rows, Zoom registration auto-emails via webhook, and Gmail attachment delivery through Google Drive — deployed via Docker for persistent, always-on automation.",
     skills: [
-      "Python",
       "n8n",
+      "Python",
+      "Docker",
       "Automation",
-      "AI",
+    ],
+  },
+
+  {
+    company: "Self-Directed Learning",
+    role: "AI Engineering Track",
+    duration: "2026",
+    description:
+      "Structured, hands-on LangChain learning path covering LLMs, Chat Models (OpenAI, Gemini, HuggingFace), embeddings, document similarity and structured output with Pydantic and TypedDict. Currently progressing into LangGraph — multi-agent systems, ReAct loops and checkpointing.",
+    skills: [
+      "LangChain",
+      "LangGraph",
+      "Embeddings",
+      "Pydantic",
     ],
   },
 ];
@@ -73,12 +59,12 @@ export default function Experience() {
           </p>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
-            Building Real-World Products
+            Building AI-Powered Systems
           </h2>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
-            My experience includes AI Engineering, Full Stack Development,
-            modern web applications and intelligent automation solutions.
+            My experience is focused on AI Engineering — LLM integrations,
+            AI Agents and intelligent automation systems.
           </p>
         </div>
 

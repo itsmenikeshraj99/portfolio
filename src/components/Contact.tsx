@@ -96,7 +96,7 @@ export default function Contact() {
                 <div>
                   <p className="text-gray-400">Phone</p>
                   <h3 className="text-lg">
-                    +91 7992401102
+                    +91 7992401103
                   </h3>
                 </div>
               </div>

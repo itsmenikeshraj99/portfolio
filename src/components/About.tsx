@@ -20,13 +20,13 @@ export default function About() {
     },
     {
       icon: <FaLaptopCode size={28} />,
-      title: "Full Stack",
-      text: "React • Python • SQL",
+      title: "LLM Engineering",
+      text: "RAG • LangGraph • Python",
     },
     {
       icon: <FaGlobe size={28} />,
       title: "Open To Work",
-      text: "Remote Opportunities",
+      text: "Remote AI Engineer Roles",
     },
   ];
 
@@ -63,16 +63,15 @@ export default function About() {
 
             <br /><br />
 
-            I enjoy building AI-powered applications,
-            intelligent automation systems,
-            AI Agents, RAG solutions and
-            modern full-stack applications.
+            I specialize in building AI Agents, RAG pipelines,
+            LLM-powered applications and intelligent automation
+            systems using LangChain, LangGraph and Python.
 
             <br /><br />
 
-            My goal is to create intelligent products
-            that solve real-world business problems
-            using Artificial Intelligence.
+            My goal is to design and ship AI systems
+            that solve real-world business problems —
+            and I'm actively looking for AI Engineer roles.
           </p>
         </motion.div>
 

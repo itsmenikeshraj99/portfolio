@@ -4,9 +4,9 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const education = [
   {
     degree: "M.Sc. Mathematics",
-    institution: "Sikkim University",
+    institution: "DURGA SOREN UNIVERSITY",
     duration: "2024 - 2026",
-    location: "Sikkim, India",
+    location: "Jharkhand, India",
     description:
       "Focused on Advanced Mathematics, Linear Algebra, Statistics, Real Analysis and Problem Solving. Developed strong analytical and logical thinking skills that now support my work in AI and software development.",
   },

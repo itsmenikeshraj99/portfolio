@@ -6,6 +6,7 @@ import {
   FaGitAlt,
   FaGithub,
   FaNodeJs,
+  FaCogs,
 } from "react-icons/fa";
 
 import {
@@ -29,28 +30,28 @@ const skillGroups = [
   },
 
   {
-    title: "Frontend",
+    title: "ML / Backend for AI",
     color: "from-purple-500 to-cyan-500",
     skills: [
-      "React",
-      "React Native",
-      "TypeScript",
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "SQL",
+      "Vector Embeddings",
+      "Firebase",
     ],
   },
 
   {
-    title: "Backend",
+    title: "Tools & Automation",
     color: "from-green-500 to-cyan-500",
     skills: [
-      "Python",
-      "FastAPI",
-      "Node.js",
-      "REST APIs",
-      "SQL",
-      "Firebase",
+      "n8n",
+      "Docker",
+      "Git & GitHub",
+      "React (for AI UIs)",
+      "TypeScript",
+      "API Integration",
     ],
   },
 ];
@@ -65,6 +66,7 @@ const tools = [
   { icon: <SiFirebase />, name: "Firebase" },
   { icon: <FaGitAlt />, name: "Git" },
   { icon: <FaGithub />, name: "GitHub" },
+  { icon: <FaCogs />, name: "n8n" },
 ];
 
 export default function Skills() {
@@ -94,9 +96,9 @@ export default function Skills() {
           </h2>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
-            I build AI-powered applications, intelligent automation,
-            modern full-stack software and scalable AI products using
-            the latest technologies.
+            I build AI Agents, RAG pipelines, LLM-powered applications
+            and intelligent automation systems using the latest
+            AI engineering tools.
           </p>
 
         </motion.div>

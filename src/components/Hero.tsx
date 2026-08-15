@@ -31,9 +31,9 @@ export default function Hero() {
               sequence={[
                 "AI Engineer",
                 2000,
-                "Full Stack AI Developer",
+                "GenAI & LLM Developer",
                 2000,
-                "M.Sc. Mathematics",
+                "AI Agents & RAG Systems",
                 2000,
                 "Building Intelligent AI Products",
                 2000,
@@ -45,9 +45,9 @@ export default function Hero() {
           </div>
 
           <p className="mt-8 text-base md:text-lg text-gray-400 leading-8 max-w-xl mx-auto lg:mx-0">
-            I build AI-powered applications, intelligent automation systems,
-            modern web applications and scalable software using Python,
-            React, TypeScript, LangChain, FastAPI and Generative AI.
+            I build AI-powered applications — LLM integrations, RAG pipelines,
+            AI Agents and intelligent automation systems using Python,
+            LangChain, LangGraph and FastAPI.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center lg:justify-start">

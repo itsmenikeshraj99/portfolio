@@ -3,54 +3,31 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "AI Portfolio Website",
-    description:
-      "A modern personal portfolio built with React, TypeScript, Tailwind CSS and Framer Motion. Designed with glassmorphism, responsive layouts and smooth animations.",
-    tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/itsmenikeshraj99/portfolio",
-    demo: "#",
-    status: "Live",
-  },
-  {
     title: "Innera",
     description:
-      "An AI-powered education platform focused on personalized learning, student management and future AI-powered features.",
+      "An ed-tech mobile app for CBSE/NCERT and competitive exam students (JEE, SSC, Bank, Railway, UGC NET), built on a feature-based modular architecture with a fully Firestore-driven syllabus system and AI-driven personalized learning.",
     tech: ["React Native", "Firebase", "TypeScript", "AI"],
     github: "https://github.com/itsmenikeshraj99/innera",
     demo: "#",
     status: "In Progress",
   },
   {
-  title: "MBA Paanwali",
-  description:
-    "A modern business website developed for MBA Paanwali with a responsive UI, brand-focused design, product showcase and optimized user experience.",
-  tech: [
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "Responsive Design",
-  ],
-  github: "#",
-  demo: "#",
-  status: "Completed",
-  },
-  {
-    title: "AI Business Automation",
+    title: "n8n Business Automation",
     description:
-      "Business workflow automation using n8n, APIs and AI to automate repetitive business tasks and improve productivity.",
-    tech: ["n8n", "Python", "Automation", "AI"],
+      "A set of n8n automation workflows deployed via Docker — a Gmail sender triggered by Google Sheets rows, Zoom registration auto-emails via webhook, and Gmail attachment delivery through Google Drive.",
+    tech: ["n8n", "Docker", "Automation", "Webhooks"],
     github: "#",
     demo: "#",
-    status: "In Progress",
+    status: "Completed",
   },
   {
-    title: "AI Chatbot",
+    title: "LangChain Fundamentals",
     description:
-      "An intelligent chatbot built using LangChain, RAG and OpenAI APIs for contextual conversations.",
-    tech: ["LangChain", "RAG", "Python", "OpenAI"],
-    github: "#",
+      "Hands-on LangChain projects covering LLMs, Chat Models (OpenAI, Gemini, HuggingFace), embeddings, document similarity and structured output using Pydantic and TypedDict.",
+    tech: ["LangChain", "Python", "Pydantic", "Embeddings"],
+    github: "https://github.com/itsmenikeshraj99/langchain_structured_output",
     demo: "#",
-    status: "Coming Soon",
+    status: "Completed",
   },
 ];
 
