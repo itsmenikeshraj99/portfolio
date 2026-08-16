@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 py-24 text-white"
+      className="min-h-screen flex items-center justify-center px-6 py-24 text-[#FAF3E8]"
     >
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
 
@@ -17,16 +17,16 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center lg:text-left"
         >
-          <p className="text-cyan-400 text-xl mb-4">
+          <p className="text-amber-400 text-xl mb-4">
             👋 Hello, I'm
           </p>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-            <span className="text-white">Nikesh </span>
-            <span className="text-cyan-400">Kumar</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight font-heading">
+            <span className="text-[#FAF3E8]">Nikesh </span>
+            <span className="text-amber-400">Kumar</span>
           </h1>
 
-          <div className="mt-6 text-xl md:text-2xl text-gray-300 h-16">
+          <div className="mt-6 text-xl md:text-2xl text-gray-300 h-16 font-mono">
             <TypeAnimation
               sequence={[
                 "AI Engineer",
@@ -54,7 +54,7 @@ export default function Hero() {
 
             <a
               href="#projects"
-              className="bg-cyan-500 hover:bg-cyan-400 text-black px-8 py-4 rounded-xl font-semibold transition duration-300"
+              className="bg-orange-500 hover:bg-amber-400 text-black px-8 py-4 rounded-xl font-semibold transition duration-300"
             >
               View Projects
             </a>
@@ -62,7 +62,7 @@ export default function Hero() {
             <a
               href="/resume.pdf"
               download
-              className="border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black px-8 py-4 rounded-xl font-semibold transition duration-300"
+              className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black px-8 py-4 rounded-xl font-semibold transition duration-300"
             >
               Download Resume
             </a>
@@ -79,12 +79,12 @@ export default function Hero() {
         >
           <div className="relative">
 
-            <div className="absolute inset-0 rounded-full bg-cyan-400 blur-3xl opacity-20"></div>
+            <div className="absolute inset-0 rounded-full bg-amber-400 blur-3xl opacity-20"></div>
 
             <img
               src={profile}
               alt="Nikesh Kumar"
-              className="relative w-64 sm:w-80 lg:w-[430px] rounded-full border-4 border-cyan-400 shadow-[0_0_60px_#22d3ee] hover:scale-105 transition duration-500"
+              className="relative w-64 sm:w-80 lg:w-[430px] rounded-full border-4 border-amber-400 shadow-[0_0_60px_#22d3ee] hover:scale-105 transition duration-500"
             />
 
           </div>

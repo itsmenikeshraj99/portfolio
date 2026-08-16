@@ -25,7 +25,7 @@ z-index:999;
 .logo-text{
 font-size:28px;
 font-weight:700;
-color:#00d4ff;
+color:#E07A3E;
 }
 
 .nav-links{
@@ -41,7 +41,7 @@ transition:.3s;
 }
 
 .nav-links a:hover{
-color:#00d4ff;
+color:#E07A3E;
 }
 
 .nav-right{
@@ -57,7 +57,7 @@ transition:.3s;
 }
 
 .icon:hover{
-color:#00d4ff;
+color:#E07A3E;
 transform:translateY(-3px);
 }
 
@@ -66,7 +66,7 @@ padding:12px 22px;
 border:none;
 border-radius:12px;
 
-background:#00d4ff;
+background:#E07A3E;
 
 font-weight:700;
 
@@ -77,7 +77,7 @@ transition:.35s;
 
 .resume-btn:hover{
 transform:translateY(-3px);
-box-shadow:0 0 20px #00d4ff;
+box-shadow:0 0 20px #E07A3E;
 }
 
 .menu-btn{

@@ -9,12 +9,12 @@ export default function Navbar() {
     <nav className="navbar">
       <a
         href="#"
-        className="flex items-center gap-3 text-2xl md:text-3xl font-bold text-cyan-400"
+        className="flex items-center gap-3 text-2xl md:text-3xl font-bold text-amber-400"
       >
         <img
           src="/favicon.png"
           alt="Logo"
-          className="w-10 h-10 rounded-3x1 shadow-[0_0_20px_#00e5ff80]"
+          className="w-10 h-10 rounded-full object-cover shadow-[0_0_20px_#E07A3E80]"
         />
 
         <span>Nikesh Kumar.</span>

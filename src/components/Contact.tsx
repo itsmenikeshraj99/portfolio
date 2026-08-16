@@ -54,7 +54,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-black text-white py-24 px-6"
+      className="min-h-screen bg-[#0D0D0D] text-[#FAF3E8] py-24 px-6"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -64,7 +64,7 @@ export default function Contact() {
           transition={{ duration: 0.8 }}
         >
 
-          <h2 className="text-5xl font-bold text-cyan-400 text-center mb-4">
+          <h2 className="text-5xl font-bold text-amber-400 text-center mb-4 font-heading">
             Contact Me
           </h2>
 
@@ -82,7 +82,7 @@ export default function Contact() {
               className="space-y-8"
             >
               <div className="flex items-center gap-4">
-                <Mail className="text-cyan-400" size={28} />
+                <Mail className="text-amber-400" size={28} />
                 <div>
                   <p className="text-gray-400">Email</p>
                   <h3 className="text-lg">
@@ -92,17 +92,17 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <Phone className="text-cyan-400" size={28} />
+                <Phone className="text-amber-400" size={28} />
                 <div>
                   <p className="text-gray-400">Phone</p>
                   <h3 className="text-lg">
-                    +91 7992401103
+                    +91 7992401102
                   </h3>
                 </div>
               </div>
 
               <div className="flex items-center gap-4">
-                <MapPin className="text-cyan-400" size={28} />
+                <MapPin className="text-amber-400" size={28} />
                 <div>
                   <p className="text-gray-400">Location</p>
                   <h3 className="text-lg">
@@ -111,8 +111,8 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="mt-12 rounded-3xl border border-cyan-500/30 bg-cyan-500/10 p-8">
-                <h3 className="text-2xl font-bold text-cyan-400 mb-4">
+              <div className="mt-12 rounded-3xl border border-orange-500/30 bg-orange-500/10 p-8">
+                <h3 className="text-2xl font-bold text-amber-400 mb-4 font-heading">
                   Available for
                 </h3>
 
@@ -134,7 +134,7 @@ export default function Contact() {
               initial={{ opacity: 0, x: 60 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
-              className="bg-white/5 backdrop-blur-xl border border-cyan-500/20 rounded-3xl p-8 space-y-6"
+              className="bg-white/5 backdrop-blur-xl border border-orange-500/20 rounded-3xl p-8 space-y-6"
             >
 
               <input
@@ -142,7 +142,7 @@ export default function Contact() {
                 name="name"
                 placeholder="Your Name"
                 required
-                className="w-full p-4 rounded-xl bg-black/40 border border-cyan-400/30 outline-none focus:border-cyan-400"
+                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
               />
 
               <input
@@ -150,7 +150,7 @@ export default function Contact() {
                 name="email"
                 placeholder="Your Email"
                 required
-                className="w-full p-4 rounded-xl bg-black/40 border border-cyan-400/30 outline-none focus:border-cyan-400"
+                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
               />
 
               <input
@@ -158,7 +158,7 @@ export default function Contact() {
                 name="title"
                 placeholder="Subject"
                 required
-                className="w-full p-4 rounded-xl bg-black/40 border border-cyan-400/30 outline-none focus:border-cyan-400"
+                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
               />
 
               <textarea
@@ -166,7 +166,7 @@ export default function Contact() {
                 name="message"
                 placeholder="Write your message..."
                 required
-                className="w-full p-4 rounded-xl bg-black/40 border border-cyan-400/30 outline-none focus:border-cyan-400"
+                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
               />
               {success && (
                 <div className="flex items-center gap-2 rounded-xl border border-green-500/30 bg-green-500/10 p-4 text-green-400">
@@ -184,7 +184,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full flex items-center justify-center gap-3 rounded-xl bg-cyan-500 py-4 font-semibold text-black transition hover:bg-cyan-400 disabled:cursor-not-allowed disabled:opacity-60"
+                className="w-full flex items-center justify-center gap-3 rounded-xl bg-orange-500 py-4 font-semibold text-black transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {loading ? (
                   "Sending..."

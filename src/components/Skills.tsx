@@ -18,7 +18,7 @@ import {
 const skillGroups = [
   {
     title: "AI & Generative AI",
-    color: "from-cyan-500 to-blue-500",
+    color: "from-orange-500 to-orange-700",
     skills: [
       "Generative AI",
       "LangChain",
@@ -31,7 +31,7 @@ const skillGroups = [
 
   {
     title: "ML / Backend for AI",
-    color: "from-purple-500 to-cyan-500",
+    color: "from-purple-500 to-orange-500",
     skills: [
       "Python",
       "FastAPI",
@@ -44,7 +44,7 @@ const skillGroups = [
 
   {
     title: "Tools & Automation",
-    color: "from-green-500 to-cyan-500",
+    color: "from-green-500 to-orange-500",
     skills: [
       "n8n",
       "Docker",
@@ -73,7 +73,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen px-6 py-24 text-white"
+      className="min-h-screen px-6 py-24 text-[#FAF3E8]"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -87,11 +87,11 @@ export default function Skills() {
           className="text-center mb-20"
         >
 
-          <p className="uppercase tracking-[6px] text-cyan-400">
+          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
             Skills
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading">
             Technologies I Work With
           </h2>
 
@@ -119,7 +119,7 @@ export default function Skills() {
                 y: -6,
                 scale: 1.02,
               }}
-              className="rounded-3xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl p-6 md:p-8 hover:border-cyan-400 hover:shadow-[0_0_30px_#00e5ff55] transition duration-300"
+              className="rounded-3xl border border-orange-500/30 bg-white/5 backdrop-blur-xl p-6 md:p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition duration-300"
             >
 
               <div
@@ -137,14 +137,14 @@ export default function Skills() {
                     className="flex justify-between items-center gap-4"
                   >
 
-                    <span className="text-sm md:text-base">
+                    <span className="text-sm md:text-base font-mono">
                       {skill}
                     </span>
 
                     <div className="w-20 md:w-28 h-2 bg-gray-700 rounded-full">
 
                       <div
-                        className="h-2 rounded-full bg-cyan-400"
+                        className="h-2 rounded-full bg-amber-400"
                         style={{
                           width: `${85 + (i % 3) * 5}%`,
                         }}
@@ -168,7 +168,7 @@ export default function Skills() {
 
         <div className="mt-24">
 
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12">
+          <h3 className="text-2xl md:text-3xl font-bold text-center mb-12 font-heading">
             Tech Stack
           </h3>
 
@@ -182,10 +182,10 @@ export default function Skills() {
                   scale: 1.08,
                   rotate: 5,
                 }}
-                className="bg-white/5 border border-cyan-500/20 rounded-2xl p-5 flex flex-col items-center gap-3 hover:shadow-[0_0_25px_#00e5ff55] transition"
+                className="bg-white/5 border border-orange-500/20 rounded-2xl p-5 flex flex-col items-center gap-3 hover:shadow-[0_0_25px_#E07A3E55] transition"
               >
 
-                <div className="text-3xl md:text-4xl text-cyan-400">
+                <div className="text-3xl md:text-4xl text-amber-400">
                   {tool.icon}
                 </div>
 

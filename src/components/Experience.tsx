@@ -49,16 +49,16 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen py-24 px-6 text-white"
+      className="min-h-screen py-24 px-6 text-[#FAF3E8]"
     >
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-20">
-          <p className="uppercase tracking-[6px] text-cyan-400">
+          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
             Experience
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading">
             Building AI-Powered Systems
           </h2>
 
@@ -79,17 +79,17 @@ export default function Experience() {
               transition={{ delay: index * 0.15 }}
               viewport={{ once: true }}
               whileHover={{ y: -5 }}
-              className="rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-cyan-400 hover:shadow-[0_0_30px_#00e5ff55] transition"
+              className="rounded-3xl border border-orange-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition"
             >
 
               <div className="flex justify-between flex-wrap gap-4">
 
                 <div>
-                  <h3 className="text-2xl md:text-3xl font-bold">
+                  <h3 className="text-2xl md:text-3xl font-bold font-heading">
                     {exp.role}
                   </h3>
 
-                  <p className="text-cyan-400 text-lg mt-2">
+                  <p className="text-amber-400 text-lg mt-2">
                     {exp.company}
                   </p>
                 </div>
@@ -111,7 +111,7 @@ export default function Experience() {
 
                   <span
                     key={i}
-                    className="px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-sm"
+                    className="px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-amber-300 text-sm"
                   >
                     {skill}
                   </span>

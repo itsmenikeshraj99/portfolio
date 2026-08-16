@@ -33,7 +33,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center px-6 py-20 text-white"
+      className="min-h-screen flex items-center justify-center px-6 py-20 text-[#FAF3E8]"
     >
       <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
@@ -45,14 +45,14 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center lg:text-left"
         >
-          <p className="text-cyan-400 uppercase tracking-[6px] mb-4">
+          <p className="text-amber-400 uppercase tracking-[6px] mb-4 font-mono">
             About Me
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8 font-heading">
             Passionate About
             <br />
-            <span className="text-cyan-400">
+            <span className="text-amber-400">
               Artificial Intelligence
             </span>
           </h2>
@@ -93,14 +93,14 @@ export default function About() {
                 y: -5,
               }}
               key={index}
-              className="rounded-3xl border border-cyan-500/30 bg-white/5 backdrop-blur-xl p-8 hover:border-cyan-400 hover:shadow-[0_0_30px_#00e5ff55] transition duration-300"
+              className="rounded-3xl border border-orange-500/30 bg-white/5 backdrop-blur-xl p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition duration-300"
             >
 
-              <div className="text-cyan-400 text-3xl mb-6">
+              <div className="text-amber-400 text-3xl mb-6">
                 {card.icon}
               </div>
 
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="text-xl font-semibold mb-3 font-heading">
                 {card.title}
               </h3>
 

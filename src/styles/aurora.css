@@ -3,7 +3,7 @@
   inset: 0;
   overflow: hidden;
   z-index: -1;
-  background: #050816;
+  background: #0D0D0D;
 }
 
 .aurora::before,
@@ -18,14 +18,14 @@
 }
 
 .aurora::before{
-  background:#00d4ff;
+  background:#E07A3E;
   top:-180px;
   left:-180px;
   animation:moveOne 16s ease-in-out infinite alternate;
 }
 
 .aurora::after{
-  background:#6d5dfc;
+  background:#D4A017;
   bottom:-220px;
   right:-220px;
   animation:moveTwo 18s ease-in-out infinite alternate;

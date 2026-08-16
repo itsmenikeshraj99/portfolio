@@ -4,9 +4,9 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const education = [
   {
     degree: "M.Sc. Mathematics",
-    institution: "DURGA SOREN UNIVERSITY",
+    institution: "Sikkim University",
     duration: "2024 - 2026",
-    location: "Jharkhand, India",
+    location: "Sikkim, India",
     description:
       "Focused on Advanced Mathematics, Linear Algebra, Statistics, Real Analysis and Problem Solving. Developed strong analytical and logical thinking skills that now support my work in AI and software development.",
   },
@@ -24,7 +24,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="min-h-screen py-24 px-6 text-white"
+      className="min-h-screen py-24 px-6 text-[#FAF3E8]"
     >
       <div className="max-w-6xl mx-auto">
 
@@ -35,11 +35,11 @@ export default function Education() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <p className="uppercase tracking-[6px] text-cyan-400">
+          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
             Education
           </p>
 
-          <h2 className="text-5xl font-bold mt-4">
+          <h2 className="text-5xl font-bold mt-4 font-heading">
             Academic Journey
           </h2>
 
@@ -60,25 +60,25 @@ export default function Education() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * .2 }}
               viewport={{ once: true }}
-              className="rounded-3xl border border-cyan-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-cyan-400 hover:shadow-[0_0_30px_#00e5ff55] transition-all duration-300"
+              className="rounded-3xl border border-orange-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition-all duration-300"
             >
 
               <div className="flex items-start gap-6">
 
-                <div className="bg-cyan-500/20 p-4 rounded-2xl">
+                <div className="bg-orange-500/20 p-4 rounded-2xl">
                   <GraduationCap
                     size={34}
-                    className="text-cyan-400"
+                    className="text-amber-400"
                   />
                 </div>
 
                 <div className="flex-1">
 
-                  <h3 className="text-3xl font-bold">
+                  <h3 className="text-3xl font-bold font-heading">
                     {item.degree}
                   </h3>
 
-                  <p className="text-cyan-400 mt-2 text-lg">
+                  <p className="text-amber-400 mt-2 text-lg">
                     {item.institution}
                   </p>
 
