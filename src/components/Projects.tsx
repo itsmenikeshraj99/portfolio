@@ -3,6 +3,42 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+    title: "AI Data Analyst Agent",
+    description:
+      "A self-correcting LangGraph agent that writes and executes pandas code to answer natural-language questions about uploaded data, with structured (Pydantic) outputs and automatic retry on execution errors.",
+    tech: ["LangGraph", "Python", "Pandas", "Pydantic"],
+    github: "https://github.com/itsmenikeshraj99/ai_data_analyst_agent",
+    demo: "https://aidataanalystagent.streamlit.app",
+    status: "Completed",
+  },
+  {
+    title: "Interview Prep",
+    description:
+      "A 3-agent mock interviewer — interviewer, evaluator, and coach agents working together, with question difficulty that adapts round by round based on answer quality.",
+    tech: ["LangGraph", "Python", "Pydantic", "Streamlit"],
+    github: "https://github.com/itsmenikeshraj99/Interview_Prep",
+    demo: "https://interviewprep-1.streamlit.app",
+    status: "Completed",
+  },
+  {
+    title: "AI Job-Match Agent",
+    description:
+      "A 4-node LangGraph agent (extract resume → extract JD → match & score → suggest) that scores resume-to-job-description fit and generates actionable improvement suggestions, using structured (Pydantic) outputs at every step.",
+    tech: ["LangGraph", "Python", "Pydantic", "Streamlit"],
+    github: "https://github.com/itsmenikeshraj99/ai-job-match-agent",
+    demo: "https://ai-job-match-agent.streamlit.app",
+    status: "Completed",
+  },
+  {
+    title: "Reel Generator",
+    description:
+      "An end-to-end content pipeline that turns a topic into a captioned short-form video: LangGraph-driven script generation, automated voiceover, and video assembly.",
+    tech: ["LangGraph", "Python", "MoviePy", "Streamlit"],
+    github: "https://github.com/itsmenikeshraj99/Reel_Generator",
+    demo: "https://reelgenerator-1.streamlit.app",
+    status: "In Progress",
+  },
+  {
     title: "Innera",
     description:
       "An ed-tech mobile app for CBSE/NCERT and competitive exam students (JEE, SSC, Bank, Railway, UGC NET), built on a feature-based modular architecture with a fully Firestore-driven syllabus system and AI-driven personalized learning.",
@@ -10,24 +46,6 @@ const projects = [
     github: "https://github.com/itsmenikeshraj99/innera",
     demo: "#",
     status: "In Progress",
-  },
-  {
-    title: "n8n Business Automation",
-    description:
-      "A set of n8n automation workflows deployed via Docker — a Gmail sender triggered by Google Sheets rows, Zoom registration auto-emails via webhook, and Gmail attachment delivery through Google Drive.",
-    tech: ["n8n", "Docker", "Automation", "Webhooks"],
-    github: "#",
-    demo: "#",
-    status: "Completed",
-  },
-  {
-    title: "LangChain Fundamentals",
-    description:
-      "Hands-on LangChain projects covering LLMs, Chat Models (OpenAI, Gemini, HuggingFace), embeddings, document similarity and structured output using Pydantic and TypedDict.",
-    tech: ["LangChain", "Python", "Pydantic", "Embeddings"],
-    github: "https://github.com/itsmenikeshraj99/langchain_structured_output",
-    demo: "#",
-    status: "Completed",
   },
 ];
 
@@ -128,25 +146,29 @@ export default function Projects() {
 
                 <div className="flex gap-4 mt-8">
 
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 hover:bg-amber-400 text-black font-semibold transition"
-                  >
-                    <FaGithub />
-                    GitHub
-                  </a>
+                  {project.github !== "#" && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 hover:bg-amber-400 text-black font-semibold transition"
+                    >
+                      <FaGithub />
+                      GitHub
+                    </a>
+                  )}
 
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-5 py-3 rounded-xl border border-amber-400 hover:bg-orange-500/20 transition"
-                  >
-                    <FaExternalLinkAlt />
-                    Live Demo
-                  </a>
+                  {project.demo !== "#" && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-5 py-3 rounded-xl border border-amber-400 hover:bg-orange-500/20 transition"
+                    >
+                      <FaExternalLinkAlt />
+                      Live Demo
+                    </a>
+                  )}
 
                 </div>
 

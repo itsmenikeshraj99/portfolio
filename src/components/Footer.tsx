@@ -14,7 +14,7 @@ export default function Footer() {
             </h2>
 
             <p className="text-gray-400 mt-2">
-              Full Stack AI Developer
+              AI Engineer
             </p>
           </div>
 
