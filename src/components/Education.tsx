@@ -10,14 +10,6 @@ const education = [
     description:
       "Focused on Advanced Mathematics, Linear Algebra, Statistics, Real Analysis and Problem Solving. Developed strong analytical and logical thinking skills that now support my work in AI and software development.",
   },
-  {
-    degree: "B.Sc. Mathematics",
-    institution: "Tilka Manjhi Bhagalpur University",
-    duration: "2017 - 2020",
-    location: "Bhagalpur, Bihar",
-    description:
-      "Built a strong foundation in Algebra, Calculus, Geometry and Mathematical Reasoning, strengthening quantitative and problem-solving abilities.",
-  },
 ];
 
 export default function Education() {
