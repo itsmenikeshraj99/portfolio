@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Nikesh Kumar</h1>
 
 <h3 align="center">
-AI Engineer • GenAI & LLM Developer • Mathematics Graduate
+AI Engineer • GenAI & LLM Developer • Mathematics Post Graduate
 </h3>
 
 ---
