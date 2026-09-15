@@ -54,7 +54,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-[#0D0D0D] text-[#FAF3E8] py-24 px-6"
+      className="bg-white text-[#123425] py-24 px-6"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -64,11 +64,11 @@ export default function Contact() {
           transition={{ duration: 0.8 }}
         >
 
-          <h2 className="text-5xl font-bold text-amber-400 text-center mb-4 font-heading">
+          <h2 className="text-5xl font-bold text-emerald-700 text-center mb-4 font-heading">
             Contact Me
           </h2>
 
-          <p className="text-center text-gray-400 mb-16">
+          <p className="text-center text-gray-700 mb-16">
             Let's build something amazing together.
           </p>
 
@@ -82,9 +82,9 @@ export default function Contact() {
               className="space-y-8"
             >
               <div className="flex items-center gap-4">
-                <Mail className="text-amber-400" size={28} />
+                <Mail className="text-emerald-700" size={28} />
                 <div>
-                  <p className="text-gray-400">Email</p>
+                  <p className="text-gray-700">Email</p>
                   <h3 className="text-lg">
                     nikeshkumarwork@gmail.com
                   </h3>
@@ -92,9 +92,9 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <Phone className="text-amber-400" size={28} />
+                <Phone className="text-emerald-700" size={28} />
                 <div>
-                  <p className="text-gray-400">Phone</p>
+                  <p className="text-gray-700">Phone</p>
                   <h3 className="text-lg">
                     +91 7992401102
                   </h3>
@@ -102,21 +102,21 @@ export default function Contact() {
               </div>
 
               <div className="flex items-center gap-4">
-                <MapPin className="text-amber-400" size={28} />
+                <MapPin className="text-emerald-700" size={28} />
                 <div>
-                  <p className="text-gray-400">Location</p>
+                  <p className="text-gray-700">Location</p>
                   <h3 className="text-lg">
                     Patna, Bihar, India
                   </h3>
                 </div>
               </div>
 
-              <div className="mt-12 rounded-3xl border border-orange-500/30 bg-orange-500/10 p-8">
-                <h3 className="text-2xl font-bold text-amber-400 mb-4 font-heading">
+              <div className="mt-12 rounded-3xl border-4 border-emerald-600/30 bg-emerald-600/10 p-8">
+                <h3 className="text-2xl font-bold text-emerald-700 mb-4 font-heading">
                   Available for
                 </h3>
 
-                <ul className="space-y-3 text-gray-300">
+                <ul className="space-y-3 text-gray-800">
                   <li>✅ AI Development</li>
                   <li>✅ React Projects</li>
                   <li>✅ Python Automation</li>
@@ -134,7 +134,7 @@ export default function Contact() {
               initial={{ opacity: 0, x: 60 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
-              className="bg-white/5 backdrop-blur-xl border border-orange-500/20 rounded-3xl p-8 space-y-6"
+              className="bg-emerald-50/60 backdrop-blur-xl border-4 border-emerald-600/20 rounded-3xl p-8 space-y-6"
             >
 
               <input
@@ -142,7 +142,7 @@ export default function Contact() {
                 name="name"
                 placeholder="Your Name"
                 required
-                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
+                className="w-full p-4 rounded-xl bg-emerald-50 border border-green-400/30 outline-none focus:border-green-400"
               />
 
               <input
@@ -150,7 +150,7 @@ export default function Contact() {
                 name="email"
                 placeholder="Your Email"
                 required
-                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
+                className="w-full p-4 rounded-xl bg-emerald-50 border border-green-400/30 outline-none focus:border-green-400"
               />
 
               <input
@@ -158,7 +158,7 @@ export default function Contact() {
                 name="title"
                 placeholder="Subject"
                 required
-                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
+                className="w-full p-4 rounded-xl bg-emerald-50 border border-green-400/30 outline-none focus:border-green-400"
               />
 
               <textarea
@@ -166,10 +166,10 @@ export default function Contact() {
                 name="message"
                 placeholder="Write your message..."
                 required
-                className="w-full p-4 rounded-xl bg-[#0D0D0D]/40 border border-amber-400/30 outline-none focus:border-amber-400"
+                className="w-full p-4 rounded-xl bg-emerald-50 border border-green-400/30 outline-none focus:border-green-400"
               />
               {success && (
-                <div className="flex items-center gap-2 rounded-xl border border-green-500/30 bg-green-500/10 p-4 text-green-400">
+                <div className="flex items-center gap-2 rounded-xl border border-green-500/30 bg-green-500/10 p-4 text-emerald-700">
                   <CheckCircle size={20} />
                   <span>{success}</span>
                 </div>
@@ -184,7 +184,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full flex items-center justify-center gap-3 rounded-xl bg-orange-500 py-4 font-semibold text-black transition hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-60"
+                className="w-full flex items-center justify-center gap-3 rounded-xl bg-emerald-600 py-4 font-semibold text-black transition hover:bg-green-400 disabled:cursor-not-allowed disabled:opacity-60"
               >
                 {loading ? (
                   "Sending..."

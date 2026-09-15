@@ -16,7 +16,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="min-h-screen py-24 px-6 text-[#FAF3E8]"
+      className="py-24 px-6 text-[#123425]"
     >
       <div className="max-w-6xl mx-auto">
 
@@ -27,15 +27,15 @@ export default function Education() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
+          <p className="uppercase tracking-[6px] text-emerald-700 font-mono">
             Education
           </p>
 
-          <h2 className="text-5xl font-bold mt-4 font-heading">
+          <h2 className="text-5xl font-bold mt-4 font-heading text-teal-600">
             Academic Journey
           </h2>
 
-          <p className="text-gray-400 mt-6 max-w-3xl mx-auto">
+          <p className="text-gray-700 mt-6 max-w-3xl mx-auto">
             My academic background in Mathematics has built the analytical
             thinking and problem-solving mindset that I now apply to Artificial
             Intelligence and Full Stack Development.
@@ -52,15 +52,15 @@ export default function Education() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * .2 }}
               viewport={{ once: true }}
-              className="rounded-3xl border border-orange-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition-all duration-300"
+              className="rounded-3xl border-4 border-emerald-600/20 bg-emerald-50/60 backdrop-blur-xl p-8 hover:border-green-400 hover:shadow-[0_0_30px_#22C55E55] transition-all duration-300"
             >
 
               <div className="flex items-start gap-6">
 
-                <div className="bg-orange-500/20 p-4 rounded-2xl">
+                <div className="bg-emerald-600/20 p-4 rounded-2xl">
                   <GraduationCap
                     size={34}
-                    className="text-amber-400"
+                    className="text-emerald-700"
                   />
                 </div>
 
@@ -70,11 +70,11 @@ export default function Education() {
                     {item.degree}
                   </h3>
 
-                  <p className="text-amber-400 mt-2 text-lg">
+                  <p className="text-emerald-700 mt-2 text-lg">
                     {item.institution}
                   </p>
 
-                  <div className="flex flex-wrap gap-6 mt-5 text-gray-400">
+                  <div className="flex flex-wrap gap-6 mt-5 text-gray-700">
 
                     <div className="flex items-center gap-2">
                       <Calendar size={18} />
@@ -88,7 +88,7 @@ export default function Education() {
 
                   </div>
 
-                  <p className="text-gray-300 mt-6 leading-8">
+                  <p className="text-gray-800 mt-6 leading-8">
                     {item.description}
                   </p>
 

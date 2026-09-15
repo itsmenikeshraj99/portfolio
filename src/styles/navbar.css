@@ -12,10 +12,11 @@ justify-content:space-between;
 
 padding:16px 30px;
 
-background:rgba(255,255,255,.05);
+background:rgba(255,255,255,.75);
 backdrop-filter:blur(18px);
 
-border:1px solid rgba(255,255,255,.08);
+border:1px solid rgba(34,197,94,.15);
+box-shadow:0 4px 24px rgba(15,42,28,.06);
 
 border-radius:18px;
 
@@ -25,7 +26,7 @@ z-index:999;
 .logo-text{
 font-size:28px;
 font-weight:700;
-color:#E07A3E;
+color:#22C55E;
 }
 
 .nav-links{
@@ -34,14 +35,14 @@ gap:35px;
 }
 
 .nav-links a{
-color:white;
+color:#123425;
 text-decoration:none;
 font-weight:600;
 transition:.3s;
 }
 
 .nav-links a:hover{
-color:#E07A3E;
+color:#22C55E;
 }
 
 .nav-right{
@@ -52,12 +53,12 @@ gap:18px;
 
 .icon{
 font-size:24px;
-color:white;
+color:#123425;
 transition:.3s;
 }
 
 .icon:hover{
-color:#E07A3E;
+color:#22C55E;
 transform:translateY(-3px);
 }
 
@@ -66,7 +67,8 @@ padding:12px 22px;
 border:none;
 border-radius:12px;
 
-background:#E07A3E;
+background:#22C55E;
+color:#06210f;
 
 font-weight:700;
 
@@ -77,14 +79,14 @@ transition:.35s;
 
 .resume-btn:hover{
 transform:translateY(-3px);
-box-shadow:0 0 20px #E07A3E;
+box-shadow:0 0 20px #22C55E;
 }
 
 .menu-btn{
   display:none;
   background:none;
   border:none;
-  color:white;
+  color:#123425;
   font-size:28px;
   cursor:pointer;
 }
@@ -118,17 +120,17 @@ box-shadow:0 0 20px #E07A3E;
 
     border-radius:20px;
 
-    background:rgba(5,20,40,.95);
+    background:rgba(255,255,255,.95);
 
     backdrop-filter:blur(20px);
 
-    border:1px solid rgba(0,229,255,.2);
+    border:1px solid rgba(74,222,128,.2);
 
     z-index:999;
   }
 
   .mobile-menu a{
-    color:white;
+    color:#123425;
     text-decoration:none;
     font-size:18px;
   }

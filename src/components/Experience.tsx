@@ -49,20 +49,20 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen py-24 px-6 text-[#FAF3E8]"
+      className="py-24 px-6 text-[#123425]"
     >
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-20">
-          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
+          <p className="uppercase tracking-[6px] text-emerald-700 font-mono">
             Experience
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading text-teal-600">
             Building AI-Powered Systems
           </h2>
 
-          <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
+          <p className="text-gray-700 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
             My experience is focused on AI Engineering — LLM integrations,
             AI Agents and intelligent automation systems.
           </p>
@@ -79,7 +79,7 @@ export default function Experience() {
               transition={{ delay: index * 0.15 }}
               viewport={{ once: true }}
               whileHover={{ y: -5 }}
-              className="rounded-3xl border border-orange-500/20 bg-white/5 backdrop-blur-xl p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition"
+              className="rounded-3xl border-4 border-emerald-600/20 bg-emerald-50/60 backdrop-blur-xl p-8 hover:border-green-400 hover:shadow-[0_0_30px_#22C55E55] transition"
             >
 
               <div className="flex justify-between flex-wrap gap-4">
@@ -89,19 +89,19 @@ export default function Experience() {
                     {exp.role}
                   </h3>
 
-                  <p className="text-amber-400 text-lg mt-2">
+                  <p className="text-emerald-700 text-lg mt-2">
                     {exp.company}
                   </p>
                 </div>
 
-                <div className="flex items-center gap-2 text-gray-400">
+                <div className="flex items-center gap-2 text-gray-700">
                   <Calendar size={18} />
                   {exp.duration}
                 </div>
 
               </div>
 
-              <p className="text-gray-300 mt-6 leading-8">
+              <p className="text-gray-800 mt-6 leading-8">
                 {exp.description}
               </p>
 
@@ -111,7 +111,7 @@ export default function Experience() {
 
                   <span
                     key={i}
-                    className="px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-amber-300 text-sm"
+                    className="px-4 py-2 rounded-full bg-emerald-600/10 border border-emerald-600/20 text-emerald-700 text-sm"
                   >
                     {skill}
                   </span>

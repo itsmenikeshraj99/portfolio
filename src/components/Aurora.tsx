@@ -1,5 +1,9 @@
 import "../styles/aurora.css";
 
 export default function Aurora() {
-  return <div className="aurora"></div>;
+  return (
+    <div className="aurora">
+      <div className="aurora-glow-white"></div>
+    </div>
+  );
 }

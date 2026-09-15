@@ -18,7 +18,7 @@ import {
 const skillGroups = [
   {
     title: "AI & Generative AI",
-    color: "from-orange-500 to-orange-700",
+    color: "from-emerald-600 to-emerald-800",
     skills: [
       "Generative AI",
       "LangChain",
@@ -31,7 +31,7 @@ const skillGroups = [
 
   {
     title: "ML / Backend for AI",
-    color: "from-purple-500 to-orange-500",
+    color: "from-purple-500 to-emerald-600",
     skills: [
       "Python",
       "FastAPI",
@@ -44,7 +44,7 @@ const skillGroups = [
 
   {
     title: "Tools & Automation",
-    color: "from-green-500 to-orange-500",
+    color: "from-green-500 to-emerald-600",
     skills: [
       "n8n",
       "Docker",
@@ -73,7 +73,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen px-6 py-24 text-[#FAF3E8]"
+      className="px-6 py-24 text-[#123425]"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -87,15 +87,15 @@ export default function Skills() {
           className="text-center mb-20"
         >
 
-          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
+          <p className="uppercase tracking-[6px] text-emerald-700 font-mono">
             Skills
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading text-teal-600">
             Technologies I Work With
           </h2>
 
-          <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
+          <p className="text-gray-700 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
             I build AI Agents, RAG pipelines, LLM-powered applications
             and intelligent automation systems using the latest
             AI engineering tools.
@@ -119,7 +119,7 @@ export default function Skills() {
                 y: -6,
                 scale: 1.02,
               }}
-              className="rounded-3xl border border-orange-500/30 bg-white/5 backdrop-blur-xl p-6 md:p-8 hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition duration-300"
+              className="rounded-3xl border-4 border-emerald-600/30 bg-emerald-50/60 backdrop-blur-xl p-6 md:p-8 hover:border-green-400 hover:shadow-[0_0_30px_#22C55E55] transition duration-300"
             >
 
               <div
@@ -144,7 +144,7 @@ export default function Skills() {
                     <div className="w-20 md:w-28 h-2 bg-gray-700 rounded-full">
 
                       <div
-                        className="h-2 rounded-full bg-amber-400"
+                        className="h-2 rounded-full bg-green-400"
                         style={{
                           width: `${85 + (i % 3) * 5}%`,
                         }}
@@ -182,10 +182,10 @@ export default function Skills() {
                   scale: 1.08,
                   rotate: 5,
                 }}
-                className="bg-white/5 border border-orange-500/20 rounded-2xl p-5 flex flex-col items-center gap-3 hover:shadow-[0_0_25px_#E07A3E55] transition"
+                className="bg-emerald-50/60 border-4 border-emerald-600/20 rounded-2xl p-5 flex flex-col items-center gap-3 hover:shadow-[0_0_25px_#22C55E55] transition"
               >
 
-                <div className="text-3xl md:text-4xl text-amber-400">
+                <div className="text-3xl md:text-4xl text-emerald-700">
                   {tool.icon}
                 </div>
 

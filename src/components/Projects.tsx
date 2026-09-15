@@ -53,7 +53,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-screen py-24 px-6 text-[#FAF3E8]"
+      className="py-24 px-6 text-[#123425]"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -66,15 +66,15 @@ export default function Projects() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <p className="uppercase tracking-[6px] text-amber-400 font-mono">
+          <p className="uppercase tracking-[6px] text-emerald-700 font-mono">
             Projects
           </p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 font-heading text-teal-600">
             Featured Projects
           </h2>
 
-          <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
+          <p className="text-gray-700 mt-6 max-w-3xl mx-auto text-base md:text-lg leading-8">
             A collection of projects showcasing my skills in Artificial
             Intelligence, Full Stack Development and Automation.
           </p>
@@ -96,12 +96,12 @@ export default function Projects() {
                 y: -8,
                 scale: 1.02,
               }}
-              className="rounded-3xl border border-orange-500/20 bg-white/5 backdrop-blur-xl overflow-hidden hover:border-amber-400 hover:shadow-[0_0_30px_#E07A3E55] transition duration-300"
+              className="rounded-3xl border-4 border-emerald-600/20 bg-emerald-50/60 backdrop-blur-xl overflow-hidden hover:border-green-400 hover:shadow-[0_0_30px_#22C55E55] transition duration-300"
             >
 
               {/* Image Placeholder */}
 
-              <div className="h-56 bg-gradient-to-br from-orange-500/20 to-amber-900/20 flex items-center justify-center text-6xl">
+              <div className="h-56 bg-gradient-to-br from-emerald-600/20 to-emerald-900/20 flex items-center justify-center text-6xl">
                 🚀
               </div>
 
@@ -110,12 +110,12 @@ export default function Projects() {
                 <span
                   className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mb-5 ${
                     project.status === "Live"
-                      ? "bg-green-500/20 text-green-400"
+                      ? "bg-green-500/20 text-emerald-700"
                       : project.status === "Completed"
                       ? "bg-emerald-500/20 text-emerald-400"
                       : project.status === "In Progress"
-                      ? "bg-yellow-500/20 text-yellow-400"
-                      : "bg-orange-700/20 text-orange-600"
+                      ? "bg-lime-500/20 text-lime-400"
+                      : "bg-emerald-800/20 text-emerald-700"
                   }`}
                 >
                   {project.status}
@@ -125,7 +125,7 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
-                <p className="text-gray-400 mt-5 leading-7">
+                <p className="text-gray-700 mt-5 leading-7">
                   {project.description}
                 </p>
 
@@ -135,7 +135,7 @@ export default function Projects() {
 
                     <span
                       key={i}
-                      className="px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-amber-300 text-sm font-mono"
+                      className="px-3 py-1 rounded-full bg-emerald-600/10 border border-emerald-600/20 text-emerald-700 text-sm font-mono"
                     >
                       {tech}
                     </span>
@@ -151,7 +151,7 @@ export default function Projects() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 hover:bg-amber-400 text-black font-semibold transition"
+                      className="flex items-center gap-2 px-5 py-3 rounded-xl bg-emerald-600 hover:bg-green-400 text-black font-semibold transition"
                     >
                       <FaGithub />
                       GitHub
@@ -163,7 +163,7 @@ export default function Projects() {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-5 py-3 rounded-xl border border-amber-400 hover:bg-orange-500/20 transition"
+                      className="flex items-center gap-2 px-5 py-3 rounded-xl border border-green-400 hover:bg-emerald-600/20 transition"
                     >
                       <FaExternalLinkAlt />
                       Live Demo

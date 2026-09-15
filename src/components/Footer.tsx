@@ -2,18 +2,18 @@ import { FaGithub, FaLinkedin, FaArrowUp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-orange-500/20 bg-[#0D0D0D]/30 backdrop-blur-xl text-[#FAF3E8] py-10">
+    <footer className="border-t border-emerald-600/20 bg-white/60 backdrop-blur-xl text-[#123425] py-10">
 
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
 
           <div>
-            <h2 className="text-3xl font-bold text-amber-400 font-heading">
+            <h2 className="text-3xl font-bold text-emerald-700 font-heading">
               Nikesh Kumar
             </h2>
 
-            <p className="text-gray-400 mt-2">
+            <p className="text-gray-700 mt-2">
               AI Engineer
             </p>
           </div>
@@ -24,7 +24,7 @@ export default function Footer() {
               href="https://github.com/itsmenikeshraj99"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-amber-400 transition"
+              className="hover:text-emerald-700 transition"
             >
               <FaGithub />
             </a>
@@ -33,7 +33,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/nikesh-kumar-4a5425187"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-amber-400 transition"
+              className="hover:text-emerald-700 transition"
             >
               <FaLinkedin />
             </a>
@@ -42,9 +42,9 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-orange-500/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-emerald-600/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
 
-          <p className="text-gray-400 text-center">
+          <p className="text-gray-700 text-center">
             © {new Date().getFullYear()} Nikesh Kumar. All Rights Reserved.
           </p>
 
@@ -55,7 +55,7 @@ export default function Footer() {
                 behavior: "smooth",
               })
             }
-            className="bg-orange-500 hover:bg-amber-400 p-3 rounded-full transition"
+            className="bg-emerald-600 hover:bg-green-400 p-3 rounded-full transition"
           >
             <FaArrowUp className="text-black" />
           </button>
